@@ -182,8 +182,7 @@ jobs:
         with:
           cuda: "12.6.2"
           method: "network"
-          sub-packages: '["nvcc", "cudart", "cublas", "cublas_dev", "thrust"]'
-          timeout-minutes: 30
+          sub-packages: '["nvcc", "cudart", "cublas", "cublas_dev", "thrust", "visual_studio_integration"]'
 
       - name: Install rocm-toolkit
         id: rocm-toolkit
